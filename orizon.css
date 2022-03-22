@@ -1,0 +1,1436 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  'Work Sans', sans-serif;
+}
+.row {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 70px 65% auto;
+}
+.column1 {
+    border-right: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+.img {
+    padding: 15px;
+    margin: 0;
+}
+  .img1 {
+      margin-bottom: 10px;
+      padding: 10px
+  }
+  .img6 {
+      background: blue;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 120px;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 20px;
+  }
+.column2 {
+   border-right: 1px solid silver;
+   height: auto;
+   margin-bottom: 40px;
+}
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+.wrap1 {
+    display: flex;
+}
+#number {
+    padding: 5px;
+    background: rgb(245, 240, 240);
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.wrap1 img {
+    width: 50px;
+    height: 50px;
+}
+.wrap1 h1 {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.wrap2 {
+    padding: 10px;
+    display: flex;
+}
+.wrap2 img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: blue;
+    border-radius: 5px;
+}
+.wrapper2 {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid silver;
+}
+.wrap3 {
+    display: flex;
+    width: auto;
+}
+.img2 {
+    width: 320px;
+    height: 140px;
+    margin-right: 35px;
+}
+.wrap4 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0;
+}
+.special {
+    display: flex;
+    margin: 0;
+}
+.spec {
+    display: flex;
+    margin-top: 30px;
+}
+.wrap4 img {
+    width: 55px;
+    height: 55px;
+    margin: 0;
+}
+.wrap4 .div {
+    display: flex;
+    flex-direction: column;
+} 
+.wrap5 {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper3 {
+    width: 100%;
+}
+.sum {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid silver;
+    margin-bottom: 20px;
+}
+.grid1 {
+    width: 30%;
+    padding: 15px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.flex2 img {
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+}
+.flex3 img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+.flex3 {
+    display: flex;
+}
+.flex3 p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.grid2 {
+    width: 65%;
+    background: silver;
+    padding: 15px;
+}
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex5 {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 2px solid white;
+}
+.flex5 h4 {
+    margin-left: 30px;  
+}
+.flex6 {
+    padding: 10px;
+}
+.flex6 input {
+    outline: none;
+    border: none;
+}
+.column3 {
+    width: 100%;
+   height: auto;
+   background: rgb(247, 239, 239);
+   padding: 20px;
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+}
+.item1 {
+    display: flex;
+}
+.item1 img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.port {
+    background-image: url("https://www.pngmagic.com/product_images/dark-blue-background-hd-for-product-display-banner.jpg");
+    width: 100%;
+    height: 130px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+}
+/* .port h2 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.port h3 {
+    margin-top: 50px;
+    margin-left: 10px;
+} */
+.my {
+    padding: 20px;
+}
+.deposit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.deposit p {
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    width: 120px;
+}
+.wrapper4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.wrap5 {
+    display: flex;
+    width: 100%;
+}
+.wrap6 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.joy {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.wrap6 .wrap7 {
+    width: 47%;
+    height: 200px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bit {
+    display: flex;
+    padding: 5px;
+}
+.bit img {
+    width: 40px;
+    height: 40px;
+}
+.wrap6 .wrap8 {
+    width: 47%;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+}
+.bit1 {
+    display: flex;
+    padding: 5px;
+}
+.bit1 img {
+    width: 40px;
+    height: 40px;
+}
+.wrapper5 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+@media  screen and (max-width: 390px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .column1 {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0%;
+        height: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .img1 {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .img {
+        width: 25px;
+        height: 25px;
+        padding: 0%;
+    }
+    .column2 {
+        
+        width: 100%;
+    }
+      .img6 {
+          background: blue;
+          padding: 0;
+          border-radius: 10px;
+          width: 20px;
+          height: 20px;
+      }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .wrap1 h1 {
+        margin-top: 8px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .wrapper2 {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        width: 100%;
+        height: 140px;
+    }
+    .wrap4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .wrap5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper3 {
+        width: 100%;
+    }
+    .sum {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid silver;
+    }
+    .grid1 {
+        width: 100%;
+        padding: 15px;
+    }
+    .flex1 {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .grid2 {
+        width: 100%;
+        background: silver;
+        padding: 15px;
+    }
+    .flex5 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        padding-left: 0;
+        border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    .flex6 input {
+        display: none;
+    }
+    .column3 {
+        width: 100%;
+       height: auto;
+       background: rgb(247, 239, 239);
+       padding: 20px;
+    }
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 {
+        display: flex;
+    }
+    .item1 img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .port {
+        background-image: url("https://www.pngmagic.com/product_images/dark-blue-background-hd-for-product-display-banner.jpg");
+        width: 100%;
+        height: 130px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: white;
+    }
+    /* .port h2 {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .port h3 {
+        margin-top: 50px;
+        margin-left: 10px;
+    } */
+    .my {
+        padding: 20px;
+    }
+    .deposit {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .deposit p {
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        width: 120px;
+    }
+    .wrapper4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .wrap5 {
+        display: flex;
+        width: 100%;
+    }
+    .wrap6 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .joy {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .wrap6 .wrap7 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .bit {
+        display: flex;
+        padding: 5px;
+    }
+    .bit img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap6 .wrap8 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        border-radius: 10px;
+    }
+    .bit1 {
+        display: flex;
+        padding: 5px;
+    }
+    .bit1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrapper5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media  screen and (max-width: 280px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .column1 {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0%;
+        height: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .img1 {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .img {
+        width: 25px;
+        height: 25px;
+        padding: 0%;
+    }
+    .column2 {
+        
+        width: 100%;
+    }
+      .img6 {
+          background: blue;
+          padding: 0;
+          border-radius: 10px;
+          width: 20px;
+          height: 20px;
+      }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .wrap1 h1 {
+        margin-top: 8px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .wrapper2 {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        width: 100%;
+        height: 140px;
+    }
+    .wrap4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .wrap5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper3 {
+        width: 100%;
+    }
+    .sum {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid silver;
+    }
+    .grid1 {
+        width: 100%;
+        padding: 15px;
+    }
+    .flex1 {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .grid2 {
+        width: 100%;
+        background: silver;
+        padding: 15px;
+    }
+    .flex5 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        padding-left: 0;
+        border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    .flex6 input {
+        display: none;
+    }
+    .column3 {
+        width: 100%;
+       height: auto;
+       background: rgb(247, 239, 239);
+       padding: 20px;
+    }
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 {
+        display: flex;
+    }
+    .item1 img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .port {
+        background-image: url("https://www.pngmagic.com/product_images/dark-blue-background-hd-for-product-display-banner.jpg");
+        width: 100%;
+        height: 130px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: white;
+    }
+    /* .port h2 {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .port h3 {
+        margin-top: 50px;
+        margin-left: 10px;
+    } */
+    .my {
+        padding: 20px;
+    }
+    .deposit {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .deposit p {
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        width: 120px;
+    }
+    .wrapper4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .wrap5 {
+        display: flex;
+        width: 100%;
+    }
+    .wrap6 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .joy {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .wrap6 .wrap7 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .bit {
+        display: flex;
+        padding: 5px;
+    }
+    .bit img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap6 .wrap8 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        border-radius: 10px;
+    }
+    .bit1 {
+        display: flex;
+        padding: 5px;
+    }
+    .bit1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrapper5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media  screen and (max-width: 414px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .column1 {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0%;
+        height: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .img1 {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .img {
+        width: 25px;
+        height: 25px;
+        padding: 0%;
+    }
+    .column2 {
+        
+        width: 100%;
+    }
+      .img6 {
+          background: blue;
+          padding: 0;
+          border-radius: 10px;
+          width: 20px;
+          height: 20px;
+      }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .wrap1 h1 {
+        margin-top: 8px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .wrapper2 {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        width: 100%;
+        height: 140px;
+    }
+    .wrap4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .wrap5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper3 {
+        width: 100%;
+    }
+    .sum {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid silver;
+    }
+    .grid1 {
+        width: 100%;
+        padding: 15px;
+    }
+    .flex1 {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .grid2 {
+        width: 100%;
+        background: silver;
+        padding: 15px;
+    }
+    .flex5 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        padding-left: 0;
+        border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    .flex6 input {
+        display: none;
+    }
+    .column3 {
+        width: 100%;
+       height: auto;
+       background: rgb(247, 239, 239);
+       padding: 20px;
+    }
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 {
+        display: flex;
+    }
+    .item1 img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .port {
+        background-image: url("https://www.pngmagic.com/product_images/dark-blue-background-hd-for-product-display-banner.jpg");
+        width: 100%;
+        height: 130px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: white;
+    }
+    /* .port h2 {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .port h3 {
+        margin-top: 50px;
+        margin-left: 10px;
+    } */
+    .my {
+        padding: 20px;
+    }
+    .deposit {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .deposit p {
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        width: 120px;
+    }
+    .wrapper4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .wrap5 {
+        display: flex;
+        width: 100%;
+    }
+    .wrap6 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .joy {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .wrap6 .wrap7 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .bit {
+        display: flex;
+        padding: 5px;
+    }
+    .bit img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap6 .wrap8 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        border-radius: 10px;
+    }
+    .bit1 {
+        display: flex;
+        padding: 5px;
+    }
+    .bit1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrapper5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media  screen and (max-width: 820px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .column1 {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0%;
+        height: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .img1 {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .img {
+        width: 25px;
+        height: 25px;
+        padding: 0%;
+    }
+    .column2 {
+        
+        width: 100%;
+    }
+      .img6 {
+          background: blue;
+          padding: 0;
+          border-radius: 10px;
+          width: 20px;
+          height: 20px;
+      }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .wrap1 h1 {
+        margin-top: 8px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .wrapper2 {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        width: 100%;
+        height: 300px;
+    }
+    .wrap4 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .wrap5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper3 {
+        width: 100%;
+    }
+    .sum {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid silver;
+    }
+    .grid1 {
+        width: 100%;
+        padding: 15px;
+    }
+    .flex1 {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .grid2 {
+        width: 100%;
+        background: silver;
+        padding: 15px;
+    }
+    .flex5 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        padding-left: 0;
+        border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    .flex6 input {
+        display: none;
+    }
+    .column3 {
+        width: 100%;
+       height: auto;
+       background: rgb(247, 239, 239);
+       padding: 20px;
+    }
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 {
+        display: flex;
+    }
+    .item1 img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .port {
+        background-image: url("https://www.pngmagic.com/product_images/dark-blue-background-hd-for-product-display-banner.jpg");
+        width: 100%;
+        height: 130px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: white;
+    }
+    /* .port h2 {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .port h3 {
+        margin-top: 50px;
+        margin-left: 10px;
+    } */
+    .my {
+        padding: 20px;
+    }
+    .deposit {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .deposit p {
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        width: 120px;
+    }
+    .wrapper4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .wrap5 {
+        display: flex;
+        width: 100%;
+    }
+    .wrap6 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .joy {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .wrap6 .wrap7 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .bit {
+        display: flex;
+        padding: 5px;
+    }
+    .bit img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap6 .wrap8 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        border-radius: 10px;
+    }
+    .bit1 {
+        display: flex;
+        padding: 5px;
+    }
+    .bit1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrapper5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media  screen and (max-width: 912px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .column1 {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0%;
+        height: 30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .img1 {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .img {
+        width: 25px;
+        height: 25px;
+        padding: 0%;
+    }
+    .column2 {
+        
+        width: 100%;
+    }
+      .img6 {
+          background: blue;
+          padding: 0;
+          border-radius: 10px;
+          width: 20px;
+          height: 20px;
+      }
+    .wrapper1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .wrap1 h1 {
+        margin-top: 8px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    
+    .wrapper2 {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        width: 100%;
+        height: 300px;
+    }
+    .wrap4 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .wrap5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper3 {
+        width: 100%;
+    }
+    .sum {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid silver;
+    }
+    .grid1 {
+        width: 100%;
+        padding: 15px;
+    }
+    .flex1 {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .grid2 {
+        width: 100%;
+        background: silver;
+        padding: 15px;
+    }
+    .flex5 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        padding-left: 0;
+        border-bottom: 2px solid white;
+        justify-content: space-between;
+    }
+    .flex6 input {
+        display: none;
+    }
+    .column3 {
+        width: 100%;
+       height: auto;
+       background: rgb(247, 239, 239);
+       padding: 20px;
+    }
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 {
+        display: flex;
+    }
+    .item1 img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .port {
+        background-image: url("https://www.pngmagic.com/product_images/dark-blue-background-hd-for-product-display-banner.jpg");
+        width: 100%;
+        height: 130px;
+        margin-top: 50px;
+        border-radius: 10px;
+        color: white;
+    }
+    /* .port h2 {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+    .port h3 {
+        margin-top: 50px;
+        margin-left: 10px;
+    } */
+    .my {
+        padding: 20px;
+    }
+    .deposit {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .deposit p {
+        padding: 10px;
+        background: white;
+        border-radius: 10px;
+        color: black;
+        text-align: center;
+        width: 120px;
+    }
+    .wrapper4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .wrap5 {
+        display: flex;
+        width: 100%;
+    }
+    .wrap6 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .joy {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    .wrap6 .wrap7 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .bit {
+        display: flex;
+        padding: 5px;
+    }
+    .bit img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrap6 .wrap8 {
+        width: 47%;
+        height: 200px;
+        background: white;
+        border-radius: 10px;
+    }
+    .bit1 {
+        display: flex;
+        padding: 5px;
+    }
+    .bit1 img {
+        width: 40px;
+        height: 40px;
+    }
+    .wrapper5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
