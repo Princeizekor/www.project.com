@@ -322,6 +322,15 @@ body {
     width: 40px;
     height: 40px;
 }
+.bit2 {
+    display: flex;
+    padding: 5px;
+    margin-top: 20px;
+}
+.bit2 img {
+    width: 40px;
+    height: 40px;
+}
 .wrapper5 {
     width: 100%;
     margin-bottom: 20px;
@@ -346,11 +355,13 @@ body {
         width: 30px;
         height: 30px;
         padding: 0;
+        margin-right: 10px;
     }
     .img {
         width: 25px;
         height: 25px;
         padding: 0%;
+        margin-right: 10px;
     }
     .column2 {
         
@@ -1050,12 +1061,11 @@ body {
     }
     .wrap4 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         margin: 0;
         margin-bottom: 20px;
         margin-top: 20px;
-        justify-content: space-between;
     }
     .wrap5 {
         display: flex;
@@ -1272,12 +1282,11 @@ body {
     }
     .wrap4 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         margin: 0;
         margin-bottom: 20px;
         margin-top: 20px;
-        justify-content: space-between;
     }
     .wrap5 {
         display: flex;
