@@ -171,7 +171,6 @@ body {
 }
 .grid2 {
     width: 65%;
-    background: silver;
     padding: 15px;
 }
 .flex4 {
@@ -194,6 +193,26 @@ body {
 .flex6 input {
     outline: none;
     border: none;
+}
+.flex7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.flex8 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.flex9 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.flex12 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 .column3 {
     width: 100%;
@@ -402,7 +421,6 @@ body {
     }
     .grid2 {
         width: 100%;
-        background: silver;
         padding: 15px;
     }
     .flex5 {
@@ -624,7 +642,6 @@ body {
     }
     .grid2 {
         width: 100%;
-        background: silver;
         padding: 15px;
     }
     .flex5 {
@@ -846,7 +863,6 @@ body {
     }
     .grid2 {
         width: 100%;
-        background: silver;
         padding: 15px;
     }
     .flex5 {
@@ -1069,7 +1085,6 @@ body {
     }
     .grid2 {
         width: 100%;
-        background: silver;
         padding: 15px;
     }
     .flex5 {
@@ -1292,7 +1307,6 @@ body {
     }
     .grid2 {
         width: 100%;
-        background: silver;
         padding: 15px;
     }
     .flex5 {
