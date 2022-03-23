@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20211116/pngtree-dark-blue-plain-background-for-design-template-image_916068.png");
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+}
+nav {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.sign-up {
+    background: silver;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 140px;
+}
+.item1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.item1 h1 {
+    font-size: 70px;
+}
+.item1 p {
+    font-size: 20px;
+    color: silver;
+    margin-top: 20px;
+}
+strong {
+    color: green;
+}
+.btn1 {
+    padding: 10px;
+    background: white;
+    color: rgb(84, 84, 233);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-top: 70px;
+}
+.img1 {
+    width: 60%;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 375px) {
+    nav {
+        width: 100%;
+        display: flex;
+        color: white;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    nav ul li {
+        padding: 5px;
+        font-size: 10px;
+    }
+    label {
+        margin: 0;
+        padding: 0;
+    }
+    .sign-up {
+        background: silver;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    .item1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: white;
+        align-items: center;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 h1 {
+        font-size: 20px;
+    }
+    .item1 p {
+        color: silver;
+        margin-top: 20px;
+    }
+    strong {
+        color: green;
+    }
+    .btn1 {
+        padding: 5px;
+        background: white;
+        color: rgb(84, 84, 233);
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 100px;
+        margin-top: 40px;
+    }
+    .img1 {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 414px) {
+    nav {
+        width: 100%;
+        display: flex;
+        color: white;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    nav ul li {
+        padding: 5px;
+        font-size: 10px;
+    }
+    label {
+        margin: 0;
+        padding: 0;
+    }
+    .sign-up {
+        background: silver;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    .item1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: white;
+        align-items: center;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 h1 {
+        font-size: 20px;
+    }
+    .item1 p {
+        color: silver;
+        margin-top: 20px;
+    }
+    strong {
+        color: green;
+    }
+    .btn1 {
+        padding: 5px;
+        background: white;
+        color: rgb(84, 84, 233);
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 100px;
+        margin-top: 40px;
+    }
+    .img1 {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 540px) {
+nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 10px;
+}
+nav ul li {
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.sign-up {
+    background: silver;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 140px;
+}
+.item1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.item1 h1 {
+    font-size: 70px;
+}
+.item1 p {
+    font-size: 20px;
+    color: silver;
+    margin-top: 20px;
+}
+strong {
+    color: green;
+}
+.btn1 {
+    padding: 10px;
+    background: white;
+    color: rgb(84, 84, 233);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-top: 70px;
+}
+.img1 {
+    width: 60%;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+}
+@media screen and (max-width: 280px) {
+    nav {
+        width: 100%;
+        display: flex;
+        color: white;
+        padding: 5px;
+        justify-content: space-between;
+    }
+    nav ul li {
+        padding: 3px;
+        font-size: 9px;
+    }
+    label {
+        margin: 0;
+        padding: 0;
+    }
+    .sign-up {
+        background: silver;
+        border-radius: 5px;
+        padding: 3px;
+        text-align: center;
+    }
+    .item1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: white;
+        align-items: center;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .item1 h1 {
+        font-size: 20px;
+    }
+    .item1 p {
+        color: silver;
+        margin-top: 20px;
+    }
+    strong {
+        color: green;
+    }
+    .btn1 {
+        padding: 5px;
+        background: white;
+        color: rgb(84, 84, 233);
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 100px;
+        margin-top: 40px;
+    }
+    .img1 {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+}
