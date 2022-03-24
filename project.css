@@ -47,7 +47,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
 }
-.item1 h1 {
+.item1 h2 {
     font-size: 70px;
 }
 .item1 p {
@@ -83,13 +83,13 @@ strong {
         padding: 5px;
         justify-content: space-between;
     }
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
     nav ul li {
         padding: 5px;
-        font-size: 10px;
-    }
-    label {
-        margin: 0;
-        padding: 0;
+        font-size: 15px;
     }
     .sign-up {
         background: silver;
@@ -100,15 +100,15 @@ strong {
     .item1 {
         width: 100%;
         height: auto;
-        text-align: center;
         color: white;
         align-items: center;
+        text-align: center;
         margin-top: 40px;
         display: flex;
         flex-direction: column;
     }
-    .item1 h1 {
-        font-size: 20px;
+    .item1 h2 {
+        font-size: 15px;
     }
     .item1 p {
         color: silver;
@@ -167,8 +167,8 @@ strong {
         display: flex;
         flex-direction: column;
     }
-    .item1 h1 {
-        font-size: 20px;
+    .item1 h2 {
+        font-size: 30px;
     }
     .item1 p {
         color: silver;
@@ -232,9 +232,6 @@ nav ul li a {
     display: flex;
     flex-direction: column;
 }
-.item1 h1 {
-    font-size: 70px;
-}
 .item1 p {
     font-size: 20px;
     color: silver;
@@ -293,7 +290,7 @@ strong {
         display: flex;
         flex-direction: column;
     }
-    .item1 h1 {
+    .item1 h2 {
         font-size: 20px;
     }
     .item1 p {
