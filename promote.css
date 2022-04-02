@@ -30,11 +30,19 @@ body {
 }
 .flex-wrap {
     display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.wrap {
+    display: flex;
     margin-left: 20px;
     padding: 10px;
     padding-left: 0;
     justify-content: space-between;
-    width: 70%;
+    width: 60%;
+}
+.padding {
+    margin-left: auto;
 }
 .men {
     display: flex;
@@ -59,7 +67,7 @@ body {
     width: 70%;
 }
 .column3 {
-    background: rgb(248, 241, 241);
+    background: rgb(253, 252, 252);
 }
 .column3 {
     width: 100%;
@@ -108,8 +116,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .deposit p {
     padding: 10px;
@@ -172,15 +180,22 @@ body {
 .bit2 {
     display: flex;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
+    width: 100%;
 }
 .bit2 img {
+    width: 100px;
+}
+.okay {
     width: 40px;
     height: 40px;
 }
 .wrapper5 {
     width: 100%;
     margin-bottom: 20px;
+}
+.wrapper5 .road {
+    margin-top: 20px;
 }
 .brave {
     display: none;
@@ -191,7 +206,14 @@ body {
 .column10 {
     display: none;
 }
-
+.width {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.promax {
+    display: none;
+}
 @media screen and (max-width: 375px){
     body {
         display: flex;
@@ -233,23 +255,51 @@ body {
         display: flex;
         flex-direction: row;
         position: fixed;
-        bottom: 0%;
-        height: 30px;
+        bottom: 2%;
+        height: 50px;
         width: 100%;
         justify-content: space-between;
-        padding: 20px;
+        padding-bottom: 20px;
+        color: grey;
     }
     .img1 {
+        display: none;
+    }
+    .big {
+        display: none;
+    }
+    .promax1 {
+        display: flex;
+    }
+    .promax {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+    .padding input {
+        display: none;
+    }
+    .padding i {
+        display: none;
+    }
+    .column5 {
+        width: 100%;
+    }
+    .joy {
+        width: 100%;
+    }
+    .joy p {
+        float: right;
+    }
+    .book input {
+        display: none;
+    }
+    .book i {
+        display: none;
+    }
+    .book img {
         width: 30px;
         height: 30px;
-        padding: 0;
-        margin-right: 10px;
-    }
-    .img {
-        width: 25px;
-        height: 25px;
-        padding: 0%;
-        margin-right: 10px;
     }
 }
 @media screen and (max-width: 414px){
@@ -293,26 +343,58 @@ body {
         display: flex;
         flex-direction: row;
         position: fixed;
-        bottom: 0%;
-        height: 30px;
+        bottom: 2%;
+        height: 50px;
         width: 100%;
         justify-content: space-between;
-        padding: 20px;
+        padding-bottom: 20px;
+        color: grey;
     }
     .img1 {
+        display: none;
+    }
+    .big {
+        display: none;
+    }
+    .promax1 {
+        display: flex;
+        width: 100%;
+    }
+    .promax {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+    .promax img {
+        width: 100%;
+    }
+    .padding input {
+        display: none;
+    }
+    .padding i {
+        display: none;
+    }
+    .column5 {
+        width: 100%;
+    }
+    .joy {
+        width: 100%;
+    }
+    .joy p {
+        float: right;
+    }
+    .book input {
+        display: none;
+    }
+    .book i {
+        display: none;
+    }
+    .book img {
         width: 30px;
         height: 30px;
-        padding: 0;
-        margin-right: 10px;
-    }
-    .img {
-        width: 25px;
-        height: 25px;
-        padding: 0%;
-        margin-right: 10px;
     }
 }
-@media screen and (max-width: 820px){
+@media screen and (min-width: 414px) and (max-width: 540px){
     body {
         display: flex;
         flex-direction: column;
@@ -353,11 +435,97 @@ body {
         display: flex;
         flex-direction: row;
         position: fixed;
-        bottom: 0%;
-        height: 30px;
+        bottom: 2%;
+        height: 50px;
         width: 100%;
         justify-content: space-between;
-        padding: 20px;
+        padding-bottom: 20px;
+        color: grey;
+    }
+    .img1 {
+        display: none;
+    }
+    .big {
+        display: none;
+    }
+    .promax1 {
+        display: flex;
+        width: 100%;
+    }
+    .promax {
+        display: block;
+        width: 70%;
+        margin-left: 70px;
+        padding: 15px;
+    }
+    .promax img {
+        width: 100%;
+    }
+    .padding input {
+        display: none;
+    }
+    .padding i {
+        display: none;
+    }
+    .column5 {
+        width: 100%;
+    }
+    .joy {
+        width: 100%;
+    }
+    .joy p {
+        float: right;
+    }
+    .book input {
+        display: none;
+    }
+    .book i {
+        display: none;
+    }
+    .book img {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 820px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .column1 {
+        display:none;
+    }
+    .column2 {
+        display: flex;
+        flex-direction: column;
+    } 
+    .column4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .column5 {
+        width: 100%;
+    }
+    .column6 {
+        width: 100%;
+    }
+    .wow {
+        display: none;
+    }
+    .people {
+        width: 100%;
+    }
+    .pole {
+        display: flex;
+        flex-direction: column;
+    }
+    .pole1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .column10 {
+        display: NONE;
     }
     .img1 {
         width: 30px;
@@ -370,6 +538,9 @@ body {
         height: 25px;
         padding: 0%;
         margin-right: 10px;
+    }
+    .big {
+        display: none;
     }
 }
 @media screen and (max-width: 912px){
@@ -430,6 +601,9 @@ body {
         height: 25px;
         padding: 0%;
         margin-right: 10px;
+    }
+    .big {
+        display: none;
     }
 }
 @media screen and (min-width: 912px) and (max-width: 1280px) {
