@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0%;
     padding: 0%;
@@ -7,6 +8,7 @@ body {
     display: grid;
     grid-template-columns: 80px 70% auto;
     height: auto;
+    font-family:  'Work Sans', sans-serif;
 }
 .text1 {
     display: flex;
@@ -67,7 +69,7 @@ body {
     width: 70%;
 }
 .column3 {
-    background: rgb(253, 252, 252);
+    background-color: rgb(255, 254, 254);
 }
 .column3 {
     width: 100%;
@@ -112,10 +114,13 @@ body {
 .my {
     padding: 20px;
 }
+.my h2 {
+    font-size: 25px;
+}
 .deposit {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -182,6 +187,7 @@ body {
     padding: 5px;
     margin-top: 30px;
     width: 100%;
+    justify-content: space-between;
 }
 .bit2 img {
     width: 100px;
@@ -206,13 +212,38 @@ body {
 .column10 {
     display: none;
 }
-.width {
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+.learn .width {
+    height: 30px;
+    width: 60px;
+}
+.bit2 .p {
+    margin-right: 20px;
 }
 .promax {
     display: none;
+}
+.bit2 .we {
+    width: 40px;
+    height: 40px;
+}
+.grace {
+    display: flex;
+    justify-content: space-between;
+}
+.grace1 {
+    margin-top: 20px;
+    margin-right: 0%;
+    width: 25px;
+    height: 25px;
+}
+.percent {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+}
+.percent p {
+    margin-top: 10px;
+    color: rgb(218, 212, 212);
 }
 @media screen and (max-width: 375px){
     body {
